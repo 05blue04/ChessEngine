@@ -65,6 +65,7 @@ typedef struct{
 //initalize board
 Board *create_board_default();
 
+
 //print board_mask
 void print_board(uint64_t b);
 
