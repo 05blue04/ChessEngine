@@ -20,4 +20,17 @@ uint64_t mask_pawn_attacks(int color, int square);
 
 // generate attack table for pawns
 void generate_pawn_attacks(uint64_t (*pawn_attacks)[64]);
+
+//mask king attack
+uint64_t mask_king_attacks(int square);
+
+//generate king attack tables
+void generate_king_attacks(uint64_t king_attacks[64]);
+
+// mask knight attakcs
+uint64_t mask_knight_attacks(int square);
+
+// generate knight attacks
+void generate_knight_attacks(uint64_t knight_attacks[64]);
+
 #endif
